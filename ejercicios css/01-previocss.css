@@ -1,0 +1,73 @@
+* {
+    background-color: chocolate;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    background-color: blue;
+}
+
+.pistacho {
+    background-color: rgb(101, 143, 101);
+    color:white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.naranja {
+    background-color: rgb(255, 113, 61);
+    color:white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.nar {
+    background-color: orange;
+}
+
+.morado {
+    background-color: blueviolet;
+}
+
+.animales {
+    background-color: aqua;
+    font-weight: bold;
+
+}
+
+.navegadores {
+    background-color: bisque;
+}
+
+.cat {
+    background-color: darkkhaki;
+
+}
+
+li {
+    background-color: cornflowerblue;
+}
+
+ol {
+    background-color:cornflowerblue ;
+}
+ul {
+    background-color: cornflowerblue;
+}

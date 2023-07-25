@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="utf-8" />
+    <title>01 - CSS: Previo</title>
+    <meta name="description" content="Ejercicios que haremos en clase del curso de confección
+                                            de páginas web" />
+    <meta name="keywords" content="html,css,javascript,web,curso,ejercicio" />
+    <meta name="author" content="Óscar Rey" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/fav-icon.png" />
+    <style>
+        /* Si un selector tiene más especificidad manda más que otro */
+        ul li{
+            background-color: #9e429e;
+        }
+
+        /* En caso de que dos selectores tengan la misma especificidad, manda el último que se pone */
+        li{
+            background-color: mediumturquoise;
+        }
+
+        /* Si separas por comas, aplica los estilos a más de un selector */
+        h1,h2,h3,h4,h5,h6{
+            background-color: navy ;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        /* Para llamar a una class hay que utilizar el punto . */
+        .impar{
+            background-color: olive;
+        }
+
+        .par{
+            background-color: tomato;
+        }
+
+        /* Para llamar a una class hay que utilizar la almoadilla # */
+        #mascota-favorita{
+            background-color: goldenrod  !important; /* !important hace que mande más que los demás */;
+        }
+
+        #color{
+            background-color: black;
+        }
+
+    </style>
+
+    <!-- Cargo mi hoja de estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Listados en HTML</h1>
+
+        <h3 class="impar">Lista numerada 1: colores</h3>
+        <ol>
+            <li style="background-color:red">Rojo</li>
+            <li style="background-color: green;">Verde</li>
+            <li style="background-color: rgb(0, 0, 255);">Azul</li>
+            <li id="color" style="background-color: #f0fc03;">Amarillo</li>
+            <li style="background-color: #fc7303;">Naranja</li>
+            <li style="background-color: #9d03fc;">Morado</li>
+        </ol>
+
+
+        <h3 class="par">Lista numerada 2: mascotas</h3>
+        <!-- Con type modifico el tipo de numeración (abcd, números romanos...) -->
+        <ol type="a">
+            <li>pájaro</li>
+            <li>pez</li>
+            <li id="mascota-favorita">perro</li>
+            <li>gato</li>
+            <li>conejo</li>
+        </ol>
+
+        <h3 class="impar">Lista NO numerada 3: navegadores</h3>
+        <ul>
+            <li>Chrome</li>
+            <li>Edge</li>
+            <li>Firefox</li>
+            <li>Safari</li>
+            <li>Opera</li>
+        </ul>
+
+        <h3 class="par">Lista NO numerada 4: ingredientes</h3>
+        <!-- Con list-style-type modifico el tipo de icono (cuadrado, círculo...) -->
+        <ul style="list-style-type: circle;">
+            <li>Tomate</li>
+            <li>Ajo</li>
+            <li>Pan</li>
+            <li>Jamón</li>
+            <li>Aceite</li>
+        </ul>
+
+        <h3 class="impar">Lista Compleja 5: mezclamos numerada y no numerada</h3>
+        <ol>
+            <li>Renault
+                <ul>
+                    <li>Compactos
+                        <ol>
+                            <li>Twingo</li>
+                            <li>Clio</li>
+                        </ol>
+                    </li>
+                    <li>Berlinas
+                        <ol>
+                            <li>Laguna</li>
+                            <li>Talisman</li>
+                        </ol>
+                    </li>
+                    <li>SUV
+                        <ol>
+                            <li>Captur</li>
+                            <li>Kadjar</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            
+            <li>Seat
+                <ul>
+                    <li>Compactos
+                        <ol>
+                            <li>Ibiza</li>
+                            <li>Arona</li>
+                        </ol>
+                    </li>
+                    <li>Berlinas
+                        <ol>
+                            <li>Toledo</li>
+                            <li>Córdova</li>
+                        </ol>
+                    </li>
+                    <li>SUV
+                        <ol>
+                            <li>Ateca</li>
+                            <li>Lo que sea</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+</html>
