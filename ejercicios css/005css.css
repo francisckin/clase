@@ -1,0 +1,80 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-style: oblique;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.res {
+    font-weight: bold;
+    color:crimson;
+}
+
+a {
+    color:aqua;
+    background-color: coral;
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 40%;
+
+    
+}
+
+caption {
+    color:blue;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+thead th {
+    color:orange; 
+    padding: 5px;
+    border: 1px solid;
+    border-color: blue;
+
+}
+
+tbody  td{
+    padding: 5px;
+    border: 1px solid;
+    border-color: blue;
+
+}
+
+tfoot td {
+    padding: 5px;
+    border: 1px solid;
+    border-color: blue;
+    font-weight: bold;
+    text-align: right;
+}
+
+.super {
+    color:brown;
+    font-weight: bold;
+}
+
+.texto {
+
+    color:darkgreen;
+    letter-spacing: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.rosa {
+    color:pink;
+    font-weight: bold;
+}
