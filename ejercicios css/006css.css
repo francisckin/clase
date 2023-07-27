@@ -28,6 +28,8 @@ nav {
 
 .menu{
     margin-left: 100px;
+    width: 20%;
+    
     
     
     
@@ -45,6 +47,8 @@ nav {
     width:20%;
     float:left;
     border: 2px solid black;
+    display: flex;
+    flex-direction: column;
     
     
     
