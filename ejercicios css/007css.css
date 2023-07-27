@@ -1,0 +1,22 @@
+table, th, td   {
+    border: 1px solid ;
+}
+
+table {
+     width: 60%;
+     border-collapse: collapse;
+
+}
+
+.fondo {
+    background-color: rgb(39, 97, 156);
+}
+
+.hov {
+    background-color: antiquewhite;
+}
+
+ tbody tr:hover { 
+    background: rgb(247, 243, 10);
+}
+
