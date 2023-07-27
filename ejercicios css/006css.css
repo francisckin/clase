@@ -19,54 +19,29 @@ object {
 nav {
     text-align: center;
     font-size: 2em;
-    background-color: aquamarine;
-    
-
-    
-    
+    background-color: aquamarine;    
 }
 
 .menu{
     margin-left: 100px;
     width: 20%;
-    
-    
-    
-    
-    
+       
 }
 
 .menu  a:link, a:visited, a:active {
     text-decoration: none;
-    color: darkred;
-    
-    
+    color: darkred;   
 }
 
-.izq {
-    width:20%;
-    float:left;
-    border: 2px solid black;
-    display: flex;
-    flex-direction: column;
-    
-    
-    
+.menu a:hover {
+    background-color: darkgoldenrod;
 }
 
-.centro {
-   
-    width:60%;
-    float:center;
-}
 
-.der {
 
-    width:20%;
-    float:right;
-    border: 2px solid black;
+
+
     
-}
 
 
 

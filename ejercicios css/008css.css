@@ -29,6 +29,6 @@ li a::before {
     visibility: hidden;
 
 }
-li:hover a::before {
+li:hover a:before {
     visibility: visible;
 }
