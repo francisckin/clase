@@ -1,0 +1,49 @@
+* {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+   
+}
+
+/*menu superior y header */ 
+
+header img {
+    background-color: beige;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav  {
+    background-color: darkcyan;
+    overflow: hidden;
+    text-align: center;
+}
+
+.topnav a {
+    float: left;
+    display:block;
+    color: #f31a1a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: darkcyan;
+}
+
+.topnav a:hover {
+    background-color: bisque;
+}
+
+
+/*cuerpo y footer */
+
+
+
+
+
